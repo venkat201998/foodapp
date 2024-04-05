@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f6823fe7.css",
-    "main.js": "/static/js/main.e8cd78fb.js",
-    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "main.css": "/static/css/main.89ba7e77.css",
+    "main.js": "/static/js/main.e338cea2.js",
+    "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
+    "static/media/banner.png": "/static/media/banner.11ace7fee05d9616d7f9.png",
+    "static/media/delivery-boy-02.avif": "/static/media/delivery-boy-02.c86401e55110f313cff9.avif",
+    "static/media/restaurant-02.avif": "/static/media/restaurant-02.f719a4f6ecb2cc31a458.avif",
+    "static/media/add_photos.svg": "/static/media/add_photos.ec38848178504a24d0ebd85ba94ec40d.svg",
     "index.html": "/index.html",
-    "main.f6823fe7.css.map": "/static/css/main.f6823fe7.css.map",
-    "main.e8cd78fb.js.map": "/static/js/main.e8cd78fb.js.map",
-    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+    "static/media/pin-map-fill.svg": "/static/media/pin-map-fill.ea30d2ae277abc4a962c205af9e03ddd.svg",
+    "main.89ba7e77.css.map": "/static/css/main.89ba7e77.css.map",
+    "main.e338cea2.js.map": "/static/js/main.e338cea2.js.map",
+    "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6823fe7.css",
-    "static/js/main.e8cd78fb.js"
+    "static/css/main.89ba7e77.css",
+    "static/js/main.e338cea2.js"
   ]
 }
