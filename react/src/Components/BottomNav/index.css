@@ -1,0 +1,105 @@
+.navbar-bottom {
+    height: 70px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px -1px 14px;
+    z-index: 2;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: rgb(255, 255, 255, 1) !important;
+}
+
+.navbar-toggler {
+    padding: 0.25rem;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.mr-20 {
+    margin-right: 15.5%;
+}
+
+.ml-20 {
+    margin-left: 16%;
+}
+
+.btn-close:focus {
+    box-shadow: none !important;
+}
+
+.btn-pat-auth-filled {
+    border: 1px solid rgba(0, 51, 102, 1);
+    color: rgba(0, 51, 102, 1) !important;
+
+    .custom-text-color {
+        color: rgba(0, 51, 102, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-pat-auth-filled:hover,
+.btn-pat-auth-filled:active,
+.btn-pat-auth-filled:focus-visible {
+    background: rgba(0, 51, 102, 1) !important;
+    color: rgb(255, 255, 255, 1) !important;
+    border: 1px solid rgba(0, 51, 102, 1) !important;
+    box-shadow: none !important;
+
+    .custom-text-color {
+        color: rgb(255, 255, 255, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-pat-auth-hollow {
+    background: rgba(0, 51, 102, 1) !important;
+    color: rgb(255, 255, 255, 1) !important;
+
+    .custom-text-color {
+        color: rgb(255, 255, 255, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-pat-auth-hollow:hover,
+.btn-pat-auth-hollow:active,
+.btn-pat-auth-hollow:focus-visible {
+    color: rgba(0, 51, 102, 1) !important;
+    background: rgba(255, 255, 255, 1) !important;
+    border: 1px solid rgba(0, 51, 102, 1) !important;
+    box-shadow: none !important;
+
+    .custom-text-color {
+        color: rgba(0, 51, 102, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-option {
+    .btn {
+        .custom-text-color {
+            color: rgba(0, 51, 102, 1) !important;
+            font-weight: 500 !important;
+        }
+    }
+}
+
+.btn-option:hover,
+.active-option {
+    .btn {
+        background: rgba(0, 51, 102, 1) !important;
+
+        .custom-text-color {
+            color: rgb(255, 255, 255, 1) !important;
+            font-weight: 500 !important;
+        }
+    }
+}
+
+.not-allowed {
+    cursor: no-drop !important;
+}

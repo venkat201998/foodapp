@@ -1,0 +1,39 @@
+.home {
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.card-width {
+    width: 20rem !important;
+}
+
+.text-blue {
+    color: rgba(0, 51, 102, 1) !important;
+}
+
+.banner {
+    /* background-image: url('../../Assets/banner.png'); */
+    /* height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+.w-10 {
+    position: absolute;
+    width: 15% !important;
+    height: 6% !important;
+    margin-top: 22% !important;
+}
+
+.no-border-input {
+    outline: none !important;
+    border: 0 !important;
+}
+
+.pointer-none {
+    cursor: no-drop !important;
+}
+
+.pointer-cursor {
+    cursor: pointer !important;
+}

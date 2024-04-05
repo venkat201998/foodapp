@@ -1,0 +1,10 @@
+.card {
+    width: 17rem;
+}
+
+.no-border {
+    border-right: 1px solid black !important;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+}

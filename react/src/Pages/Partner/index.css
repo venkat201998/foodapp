@@ -1,0 +1,25 @@
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+
+.checkbox-content {
+    margin-left: 5.5%;
+}
+
+.ant-badge {
+    margin: 10px;
+}
+
+.file-upload {
+    border: 1.5px dotted rgb(207, 207, 207);
+}
+
+.ms-2 {
+    margin-bottom: 10%;
+}
+
+.side-nav {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0;
+}
