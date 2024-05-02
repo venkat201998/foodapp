@@ -13,12 +13,12 @@ const ProductCard = ({ product, handleClickEvent }) => {
         return `${routes.length > 1 ? routes.map(route => route.toLowerCase()).join('-') : routes[0].toLowerCase()}`;
     }
 
-    const handleDeleteProduct = (obj) => {
-        handleClickEvent(obj);
+    const handleDeleteProduct = () => {
+        handleClickEvent(product);
     }
 
     return (
-        <div className='card col-10 col-lg-3 my-3 mx-2 p-0'>
+        <div className='card col-10 col-lg-3 my-3 mx-1 p-0'>
             <img src={product.images[0].urls[0].url} className='card-img-top' alt='...' />
             <div className='card-body text-start'>
                 <h5 className='card-title'>{product.title}</h5>

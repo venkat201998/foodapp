@@ -10,6 +10,7 @@ const CreateCuisine = () => {
     const { restaurant } = useSelector((state) => ({ ...state }));
     const location = useLocation();
     const navigate = useNavigate();
+    const [id, setId] = useState('');
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [price, setPrice] = useState('');
@@ -32,6 +33,7 @@ const CreateCuisine = () => {
                 .then(res => {
                     if(res.status === 200) {
                         toast.success(res.data.message);
+                        setId(res.data.product._id);
                         setTitle(res.data.product.title);
                         setDescription(res.data.product.description);
                         setPrice(res.data.product.price);
@@ -52,7 +54,7 @@ const CreateCuisine = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        createOrUpdateCuisine(restaurant.token, { email: restaurant?.email, title, description, price, quantity, category, images, id: '' })
+        createOrUpdateCuisine(restaurant.token, { email: restaurant?.email, title, description, price, quantity, category, images, id })
             .then(res => {
                 if (res.status === 200) {
                     toast.success(res.data.message);

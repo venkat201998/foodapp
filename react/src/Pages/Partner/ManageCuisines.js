@@ -29,7 +29,7 @@ const ManageCuisines = () => {
     }, [restaurant])
 
     const handleDeleteProduct = (obj) => {
-        const { product: { title } } = obj;
+        const { title } = obj;
         setLoading(true);
         deleteCuisine(restaurant.token, title, restaurant.email)
             .then(res => {
