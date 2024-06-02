@@ -23,3 +23,12 @@
     position: sticky !important;
     top: 0;
 }
+
+.partner-img {
+    width: 75%;
+}
+
+.partner-home {
+    margin-top: 70px;
+    overflow: hidden;
+}
